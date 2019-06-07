@@ -1,0 +1,29 @@
+Pizzeria = ["Queso y peperoni", "Hawaiana", "Jamon y Palmitos", "Pizza 4 Quesos", "Jamon y panceta"]
+
+def imprimir menu():
+	print(" 1 mostrar Pizzas")
+	print(" 2 Eliminar Pizzas")
+	print(" 3 Agregar Pizzas")
+	print(" 4 Salir")
+	valor = input ("Ingrese el de la accion")
+	return valor
+
+continuar = True 
+
+While continuar: 
+	#v_ retorno = Valor Retornado 
+	v_retornado = imprimir menu()
+	if int(v_retornado) = 1
+		for pizzeria in pizzas
+			print(pizzeria)
+	elif int(v_retornado) = 2 :
+		pizzeria = []
+	elif int(v_retornado) = 3 : 
+		valor = input("Ingrese la Pizzeria a agregar : ")
+		
+		pizzeria . append (valor)
+	elif int(v_retornado) = 4 : 
+		continuar = False 
+	
+	else:
+		print("opcion no controlada")
